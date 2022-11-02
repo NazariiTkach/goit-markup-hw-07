@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section,
+.section-team {
+    padding: 94px 0;
+}
+
+.section--position {
+    padding-top: 0;
+}
+
+.section--bckcolor {
+    background-color: var(--third-background-color);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+.primary-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
