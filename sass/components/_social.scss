@@ -1,11 +1,11 @@
-.social-list {
+.social {
     display: flex;
     justify-content: center;
     gap: 10px;
     list-style: none;
 }
 
-.social-list__link {
+.social__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,8 +19,8 @@
         fill var(--timing-function);
 }
 
-.social-list__link:hover,
-.social-list__link:focus {
+.social__link:hover,
+.social__link:focus {
     background-color: var(--accent-color);
     fill: var(--white-color);
 }
