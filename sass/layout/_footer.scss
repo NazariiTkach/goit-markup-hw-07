@@ -1,0 +1,38 @@
+.footer-all {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-title {
+    margin: 0px 93px 0px 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+    margin-bottom: 20px;
+}
+
+.footer-title--position {
+    margin: 0px 0px 20px 0px;
+}
+
+.footer-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-label__input {
+    width: 358px;
+    height: 50px;
+    color: $text-color;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: $secondary-background-color;
+    padding-left: 16px;
+}

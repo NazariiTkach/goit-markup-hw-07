@@ -13,14 +13,14 @@
     border: 1px solid #afb1b8;
     width: 170px;
     height: 92px;
-    background-color: var(--white-color);
-    fill: var(--icon-color);
+    background-color: $white-color;
+    fill: $icon-color;
 
-    transition: border-color var(--timing-function), fill var(--timing-function);
+    transition: border-color $timing-function, $timing-function;
 }
 
 .clients-list__link:hover,
 .clients-list__linkk:focus {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
+    border-color: $accent-color;
+    fill: $accent-color;
 }

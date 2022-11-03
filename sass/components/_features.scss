@@ -13,13 +13,13 @@
     border-radius: 4px;
     width: 270px;
     height: 120px;
-    background-color: var(--third-background-color);
+    background-color: $third-background-color;
 }
 
 .features__title {
     margin-bottom: 10px;
     max-width: 270px;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;

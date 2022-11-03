@@ -50,7 +50,7 @@ img {
 }
 
 .section--bckcolor {
-    background-color: var(--third-background-color);
+    background-color: $third-background-color;
 }
 
 body {
@@ -59,8 +59,8 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    background-color: var(--white-color);
-    color: var(--text-color);
+    background-color: $white-color;
+    color: $text-color;
 }
 
 .primary-title {
@@ -70,5 +70,5 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }

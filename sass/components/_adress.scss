@@ -1,0 +1,36 @@
+.adress {
+    margin-top: 11px;
+    list-style: none;
+    font-style: normal;
+}
+
+.adress__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.adress__text {
+    color: $white-color;
+    text-decoration: none;
+
+    transition: color $timing-function;
+}
+
+.adress__text:hover,
+.adrees__text:focus {
+    color: $accent-color;
+}
+
+.adress__mail,
+.adress__tel {
+    color: $text-color;
+    text-decoration: none;
+
+    transition: color $timing-function;
+}
+
+.adress__tel:hover,
+.adress__mail:hover,
+.adress__tel:focus,
+.adress__mail:focus {
+    color: $accent-color;
+}

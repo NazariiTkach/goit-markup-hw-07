@@ -12,15 +12,32 @@
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    background-color: var(--white-color);
-    fill: var(--icon-color);
+    background-color: $white-color;
+    fill: $icon-color;
 
-    transition: background-color var(--timing-function),
-        fill var(--timing-function);
+    transition: background-color $timing-function,
+        fill $timing-function;
 }
 
 .social__link:hover,
 .social__link:focus {
-    background-color: var(--accent-color);
-    fill: var(--white-color);
+    background-color: $accent-color;
+    fill: $white-color;
+}
+
+.social--position {
+    margin-left: 70px;
+    margin-right: 93px;
+}
+
+.social__link--inverse {
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: $white-color;
+
+    transition: background-color $timing-function;
+}
+
+.social-list--inverse:hover,
+.social-list--inverse:focus {
+    background-color: $accent-color;
 }
