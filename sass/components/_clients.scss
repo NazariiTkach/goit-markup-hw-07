@@ -1,26 +1,27 @@
 .clients-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
 }
 
 .clients-list__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    border: 1px solid #afb1b8;
-    width: 170px;
-    height: 92px;
-    background-color: $white-color;
-    fill: $icon-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
+  background-color: $white-color;
+  fill: $icon-color;
 
-    transition: border-color $timing-function, $timing-function;
-}
+  transition: border-color $timing-function, $timing-function;
 
-.clients-list__link:hover,
-.clients-list__linkk:focus {
+  &:hover,
+  &:focus {
     border-color: $accent-color;
     fill: $accent-color;
+  }
 }
+

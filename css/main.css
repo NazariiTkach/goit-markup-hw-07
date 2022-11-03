@@ -166,9 +166,7 @@ body {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.adress__text:hover,
-.adrees__text:focus {
+.adress__text:hover, .adress__text:focus {
   color: #2196f3;
 }
 
@@ -178,11 +176,9 @@ body {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.adress__mail:hover, .adress__mail:focus,
 .adress__tel:hover,
-.adress__mail:hover,
-.adress__tel:focus,
-.adress__mail:focus {
+.adress__tel:focus {
   color: #2196f3;
 }
 
@@ -205,9 +201,7 @@ body {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   color: #ffffff;
   background-color: #188ce8;
 }
@@ -217,16 +211,14 @@ body {
   min-width: 200px;
   height: 50px;
 }
+.button-footer:hover, .button-footer:focus {
+  color: #ffffff;
+  background-color: #188ce8;
+}
 
 .button__icon {
   fill: currentColor;
   margin-left: 10px;
-}
-
-.button-footer:hover,
-.button-footer:focus {
-  color: #ffffff;
-  background-color: #188ce8;
 }
 
 .button-nav {
@@ -253,9 +245,7 @@ body {
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button-nav__item:hover,
-.button-nav__item:focus {
+.button-nav__item:hover, .button-nav__item:focus {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -279,9 +269,7 @@ body {
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.projects__link:hover,
-.projects__link:focus {
+.projects__link:hover, .projects__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -375,9 +363,7 @@ body {
 .form__button {
   margin: 30px auto 0 auto;
 }
-
-.form__button:hover,
-.form__button:focus {
+.form__button:hover, .form__button:focus {
   background-color: #188ce8;
 }
 
@@ -400,9 +386,7 @@ body {
   fill: rgb(175, 177, 184);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients-list__link:hover,
-.clients-list__linkk:focus {
+.clients-list__link:hover, .clients-list__link:focus {
   border-color: #2196f3;
   fill: #2196f3;
 }
@@ -427,9 +411,7 @@ body {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contacts__link:hover,
-.contacts__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: #2196f3;
 }
 
@@ -562,6 +544,9 @@ body {
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form__input:focus {
+  border-color: #2196f3;
+}
 
 .form__icon {
   position: absolute;
@@ -589,8 +574,6 @@ textarea {
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form__input:focus,
 textarea:focus {
   border-color: #2196f3;
 }
@@ -609,9 +592,7 @@ textarea:focus {
   background-color: #ffffff;
   cursor: pointer;
 }
-
-.button-close:hover,
-.button-close:focus {
+.button-close:hover, .button-close:focus {
   fill: #2196f3;
 }
 
@@ -634,16 +615,13 @@ textarea:focus {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: #2196f3;
 }
 
 .site-nav__link--current {
   color: #2196f3;
 }
-
 .site-nav__link--current::after {
   display: block;
   content: "";
@@ -674,9 +652,7 @@ textarea:focus {
   fill: rgb(175, 177, 184);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social__link:hover,
-.social__link:focus {
+.social__link:hover, .social__link:focus {
   background-color: #2196f3;
   fill: #ffffff;
 }
@@ -690,6 +666,9 @@ textarea:focus {
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social__link--inverse:hover, .social__link--inverse:focus {
+  background-color: #2196f3;
 }
 
 .social-list--inverse:hover,

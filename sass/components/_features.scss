@@ -1,32 +1,32 @@
 .features {
-    list-style: none;
-    display: flex;
-    gap: 30px;
+  list-style: none;
+  display: flex;
+  gap: 30px;
 }
 
 .features__box {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    width: 270px;
-    height: 120px;
-    background-color: $third-background-color;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  background-color: $third-background-color;
 }
 
 .features__title {
-    margin-bottom: 10px;
-    max-width: 270px;
-    color: $primary-text-color;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  margin-bottom: 10px;
+  max-width: 270px;
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .features__text {
-    max-width: 270px;
+  max-width: 270px;
 }
