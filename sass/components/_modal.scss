@@ -9,6 +9,8 @@
   transform: translateY(0);
   transition: opacity $timing-function, visibility $timing-function,
     transform $timing-function;
+
+    overflow-y: scroll;
 }
 
 .backdrop--hidden {
